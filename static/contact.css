@@ -1,0 +1,39 @@
+.inp{
+ display: flex;
+ flex-direction: column;
+ padding: 10px;
+ margin: 10px auto;
+ border-radius: 5px;
+ width: 50%;
+ height: 25px;
+ /* text-align: center; */
+ border: 2px solid black;
+ font-size: 15px;
+}
+body{
+    border: 3px solid  black;
+    height: 100%;
+    width: 100%;
+    height: 470px;
+}
+.btn{
+    margin: 10px 48%;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 30px;
+    width: 70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h3{
+    text-align: center;
+    padding: 20px;
+   color: black;
+   font-family: monospace;
+   font-size: 20px;
+}
+#bgimage{
+    height: 378px;
+    background: center / cover no-repeat  url('/static/bg2.jpg');
+    background-repeat: no-repeat;
+ 
+}

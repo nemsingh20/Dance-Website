@@ -1,0 +1,30 @@
+extends basic.pug
+
+
+
+block style
+ style 
+  include ../static/index.css
+  include ../static/contact.css
+
+  block scripts
+   include ../onclick.js
+ 
+
+block content 
+ div#bgimage  
+  br
+  <h4>#{result}</h4>
+
+  h3 Contact Us
+  form(action="/contact" method='post')
+   input(type="text",name='name',class='inp',placeholder='Enter your Name')
+   input(type="text",name='age',class='inp',placeholder='Enter your Age')
+   input(type="email",name='email',class='inp',placeholder='Enter your Email')
+   input(type="address",name='address',class='inp',placeholder='Enter your Address')
+   input(type="text",name='more',class='inp',placeholder='Enter your More Information')
+   button(class='btn' onclick = "success()") Submit
+
+
+   
+ 
